@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+    box-sizing: border-box;
+    
+
+}
+
+.full-container {
+    background-color: #dbdbdb;
+}
+
+.mainup-container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0;
+    height: 50%;
+    padding-top: 20px;
+    padding-bottom: 160px;
+}
+
+.random-user-container {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    
+}
+
+#app {
+    width: 240px;
+  height: 254px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#app img {
+    margin-top: 20px;
+}
+
+#app img{
+    width: 150px;
+}
+
+img {
+    border-radius: 8px;
+    
+}
+
+.dogos-continer {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+#app2 {
+    width: 350px;
+    height: auto;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#app2 h1{
+    padding: 20px;
+}
+
+
+.img-dog {
+    width: 200px;
+}
+
+.contain-dog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cats-container {
+    width: 33%;
+}
+
+.joke-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#app3 {
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#app3 h1 {
+    margin-bottom: 15px;
+}
+
+.full-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.maindown-container {
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    padding-top: 40px;
+}
+
+#app4 {
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff;
+    padding: 20px;
+}
+
+.info-container h1 {
+    margin-bottom: 20px;
+}
+
+.info-container span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.info-container {
+    align-items: center;
+}
+
+.info-span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.info-span span {
+    width: 150px;
+    height: auto;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff;
+                padding: 10px;
+}
+
+.app5 {
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app5 h1 {
+    margin-bottom: 20px;
+}
+
+.app5 span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff;
+                padding: 20px;            
+}
+
+.app5 h4 {
+    margin-bottom: 15px;
+}
+
+.app5 h6 {
+    margin-bottom: 15px;
+}
+
+.app5 div {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    position: absolute;
+    bottom: 280px;
+    left: 820px;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+               -6px -6px 12px #ffffff;
+               cursor: pointer;
+  }
+  
+  button:hover {
+    border: 1px solid white;
+  }
+  
+  button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+               -4px -4px 12px #ffffff;
+  }
+
+
